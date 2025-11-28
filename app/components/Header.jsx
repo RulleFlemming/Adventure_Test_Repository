@@ -118,7 +118,7 @@ function SearchToggle() {
   const {open} = useAside();
   return (
     <button className="reset" onClick={() => open('search')}>
-      Search
+      Søg
     </button>
   );
 }
